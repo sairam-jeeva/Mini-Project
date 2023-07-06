@@ -1,0 +1,489 @@
+body{
+	background-image:url('bgimg2.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;
+}
+
+p{
+	line-height: 1.7;
+}
+.contact{
+background-color:black;
+
+}	
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-container .sp{
+background-color:black; 
+ position: fixed;
+  left:5%;
+  transform: translateX(-50%);
+  width:114px;
+}
+
+
+.image-container .image1 {
+  width: 180px;
+  height: 100px;
+  float:right;
+    justify-content: space-between;
+}
+.container img {
+  margin-right: auto;
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.image-container .image2{
+	
+	right:100%;
+width: 980px;
+height: 100px;
+float:right;
+justify-content: space-between;
+}
+.stretch-image {
+    width: 1286px;
+    height: 100px;
+	top: 20.3%; 
+	}
+#scrolling-banner {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  top: 190px;
+  position: absolute; 
+}
+
+#scrolling-banner ul{
+  display: flex;
+  list-style-type: none;
+  white-space: nowrap;
+  animation: scroll 13s linear infinite;
+  font-family: times new roman; /* sets the font style */
+  font-size: 10px; /* sets the font size */
+  
+}
+
+#scrolling-banner li {
+  margin-right: 5px;
+  font-size: 24px; 
+  color: white;
+}
+
+@keyframes scroll {
+  from { transform: translateX(100%); }
+  to { transform: translateX(-100%); }
+}
+
+
+.menu-bar:hover ul {
+  display: block;
+}
+.menu-bar {
+  width: 120px; /* adjust as needed */
+  height: 200%;
+  background-color: red; /* adjust as needed */
+  position: fixed;
+  top: 17.3%;
+  left: 0;
+}
+
+.menu-bar a:hover {
+  padding: 10px;
+  background-color: dodgerblue;
+  transition: background-color 0.5s ease;
+}
+
+.menu-bar:hover {
+  background-color: rgb(0,0,255);
+}
+
+
+.menu-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-bar ul li {
+  padding: 10px 0; /* adjust as needed */
+  text-align: center;
+}
+
+.menu-bar ul li a {
+  color: white; /* adjust as needed */
+  text-decoration: none;
+  display: block;
+}
+.img4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.know p{
+	font-size: 20px;
+}
+.contact{
+	height:40%;
+}
+
+.aboutacai h1
+{
+margin-left:0px;
+color:white; 
+}
+
+
+
+.aboutacai h1{
+  float: left;
+  margin-left: 120px;
+   /* set your desired height */
+ 
+}
+.aboutacai p{
+  font-size: 20px;
+    float: left;
+  margin-left: 120px;
+  /* set your desired height */
+
+  }
+
+.winner{
+  background-color: black;
+}
+.runner{
+  background-color:black;
+}
+.third{
+  background-color: black;
+}
+.complement{
+  background-color: black;
+}
+.acaiimg img {
+  height: 60%;
+  width:30%;
+  float: center;
+  margin-left: 450px;
+}
+
+
+.mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px; /* set your desired height */
+  width: 1400px; /* set your desired width */
+}
+
+.mission img {
+ height: 100%;
+width:300%;  /* set your desired image height */
+ /* set your desired image width */
+}
+.missionpara
+{
+	margin-left: 120px
+}
+
+ .missionpara ul li {
+    font-size: 23px;
+  }
+ 
+.principal img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 423px; /* set your desired height */
+  width: 1300px; /* set your desired width */
+}
+
+
+.principalmes p{
+	 font-size: 25px;
+	 color: black;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 500px;
+}
+
+.hodimg {
+	  height: 210px;
+      width: 160px;
+      display: block;
+      margin: auto;
+    }
+.hodtext {
+    text-align: center;
+    padding: 15px;
+	color: white;
+}
+
+.text-primary {
+    color: #007bff!important;
+}
+  .newhodback1{
+		background-color:rgb(113,232,255);
+		
+	}
+	  .newhodback2{
+		background-color:rgb(238,130,238);
+	}
+	 .newhodback3{
+		background-color:rgb(60,179,113);
+	}
+	 .newhodback5{
+		background-color:rgb(255,165,0);
+	}
+	
+	 .newhodback4{
+		background-color:rgb(255,10,20);
+	}
+  .chessback{
+		background-color:purple;
+		
+	}
+	.chessfinal
+	{
+		background-color: dodgerblue;
+	}
+	
+	.chesstxt
+	{
+		color:white;
+	}
+	
+	.presentation
+	{
+		background-color:green;
+		color:white;
+	}
+.table1 td, .table1 th {
+    padding: .75rem;
+    padding-top: 0.75rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    border-top-width: 1px;
+    border-top-style: solid;
+   
+}
+ table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      border: 1px solid black;
+      width: 50%;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: lightgray;
+    }
+	
+	.table2 td, .table2 th {
+    padding: .75rem;
+    padding-top: 0.75rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(222, 226, 230);
+}
+tr:nth-child(odd) {
+  background-color: orange;
+}
+
+tr:nth-child(even) {
+  background-color: pink;
+}
+
+th {
+    text-align: inherit;
+}
+#previous-button {
+  padding: 10px 20px;
+  background-color: lightblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+	
+.members
+{
+	background-color:orange;
+    text-align: center;
+ 
+}
+.missioncolor
+{
+	color:black;
+}
+
+.contact 
+{
+	margin-left: 120px;
+}
+
+ @keyframes spinning {
+    from { transform: rotateY(0deg) }
+    to { transform: rotateY(360deg) }
+  }
+  .spin {
+	width: 180px;
+	height: 100px;
+    animation-name: spinning;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* linear | ease | ease-in | ease-out | ease-in-out */
+    animation-timing-function: linear;
+  }
+  .sp{
+	width: 180px;
+	height: 100px;
+  }
+  
+.participants{
+	background-color: red;
+}
+.round1
+{
+	background-color:blue;
+}
+.round2
+{
+	background-color:green;
+}
+.semi{
+	background-color:yellow;
+}
+.final
+{
+	background-color:purple;
+}
+
+.liststyle
+{
+  font-size: 23px;
+  float: left;
+  margin-left: 120px;
+  color: white;
+  line-height: 2
+}
+.button {
+	width:100%;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 20px;
+  cursor: pointer;
+}
+
+.content1,.content2  ol{
+	
+  font-size: 23px;
+  float: left;
+  margin-left: 120px;
+  color: white;
+  line-height: 2;
+  display: none;
+}
+
+.button{
+"background-color: blue;
+                    border: none;
+                    color: white;
+					width:20%;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                     margin-left: 120px;
+                    cursor: pointer
+}
+
+.studname h1,ol
+{
+margin-left:120px;
+}
+.studname h1
+{
+	color: white;
+}
+
+.studname ol
+{
+	font-size:30px;
+}
+ .partab tr:nth-child(odd){
+  background-color: dodgerblue;
+  }
+ .partab tr:nth-child(even) {
+  background-color: lightgray;
+}
+.partab table,td,td{
+text-align:center;
+}
+	
+.partab th{
+	background-color:green;
+}
+
+.highlight{
+background-color:yellow;
+	color: red;
+}
+
+.partam td{
+background-color: violet
+}
+.partan td{
+	background-color: lightblue
+}
+.partao td{
+	background-color:lightgreen
+}
+.partap td{
+background-color: blue;
+}
+
+.navbar
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height:50px;
+	background-color:#fff;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+	z-index: 100;
+	transition:height 0.3s ease-out;
+}
+.navbar.fullscreen
+{
+	height: 100vh;
+}
+
